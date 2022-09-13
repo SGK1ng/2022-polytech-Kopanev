@@ -1,5 +1,7 @@
-War...
-War never changes
+> Solange man sich nicht ergibt, ist man mehr als das Schicksal.
+> - Drei Kameraden
+Моего друга сбила машина.
+Теперь он мне не друг, ведь **друзья на дороге не валяются.**
 ------------------------------------------------------------------------------------
 
 MIT License
