@@ -66,6 +66,7 @@ time:
 
 size: 25640;
 size of the text section: 000001d7
+
 ---------------------------------------------
 g++ -Oz complex.cpp
 time:
