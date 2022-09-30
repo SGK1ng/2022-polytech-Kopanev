@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/sgking/2022-polytech-kopanev/04_search_sort/intro Select CMakeLists.txt
