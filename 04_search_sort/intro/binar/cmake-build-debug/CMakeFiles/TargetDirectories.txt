@@ -1,3 +1,0 @@
-/home/sgking/2022-polytech-kopanev/04_search_sort/intro/binar/cmake-build-debug/CMakeFiles/binar.dir
-/home/sgking/2022-polytech-kopanev/04_search_sort/intro/binar/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sgking/2022-polytech-kopanev/04_search_sort/intro/binar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
