@@ -1,0 +1,3 @@
+/home/sgking/2022-polytech-kopanev/02_compiler/cmake-build-debug/CMakeFiles/02_compiler.dir
+/home/sgking/2022-polytech-kopanev/02_compiler/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sgking/2022-polytech-kopanev/02_compiler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

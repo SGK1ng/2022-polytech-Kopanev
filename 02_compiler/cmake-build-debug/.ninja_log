@@ -1,0 +1,6 @@
+# ninja log v5
+243	304	1664466384561332170	02_compiler	35237959f2f6473c
+0	17	1664466463414288197	CMakeFiles/02_compiler.dir/hello_world.cpp.o	5afc640f0deb2bad
+0	20	1664528529073219529	CMakeFiles/02_compiler.dir/hello_world.cpp.o	f2aa9412e609f42
+0	276	1664528529329223909	CMakeFiles/02_compiler.dir/func.cpp.o	17d2f48ba220117d
+277	348	1664528529399225107	02_compiler	29f771eff1eb63e
