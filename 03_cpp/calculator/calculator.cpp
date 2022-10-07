@@ -1,47 +1,39 @@
 #include <iostream>
-#include <algorithm>
-#include <math.h>
+using namespace std;
 
-int main() {
-// Initialize expression string
-std::string expr;
-
-// Print prompt
-std::cout << " > ";
-
-// Get expression line
-std::getline(std::cin, expr);
-
-// Remove spaces from expression
-expr.erase(std::remove_if(expr.begin(), expr.end(), isspace), expr.end());
-
-std::size_t pos{};
-
-// Get first operand
-const int n1 {std::stoi(expr, &pos)};
-
-// Get operator
-const char op = expr.at(pos);
-
-// Get second operand
-const int n2 {std::stoi(expr.substr(++pos))};
-
-int res;
-
-// Solve expression
-switch (op) {
-case '+': res = n1 + n2; break;
-case '-': res = n1 - n2; break;
-case '*': res = n1 * n2; break;
-case '/': res = n1 / n2; break;
-case '^': res = pow(n1, n2); break;
-default:
-std::cerr << "deficento" << std::endl;
-exit(1);
-}
-
-std::cout << res << std::endl;
-
-// Infinite recursion
-return main();
+int main()
+{
+	double a, b, o;
+	char c;
+	while (true)
+	{
+		cin >> a;
+		cin >> c;
+		cin >> b;
+	    if (c == '+'){
+	        cout << a << "+" <<  b << "=" << a + b;
+	    }
+	    if (c == '-'){
+	       cout << a << "-" <<  b << "=" <<  a - b;
+	    }
+	    if (c == '*'){
+	        cout << a << "*" <<  b << "=" <<  a * b;
+	    }
+	    if (c == '/'){
+	        if (b == 0){
+	            cout << "undefined";
+	        }
+	        else {
+	            cout << a << "/" <<  b << "=" <<  a / b;    
+	        }
+	    }
+	    o = 1;
+	    if (c == '^'){
+	        for (double i = b; i > 0; i--) {
+	            o = o * a;
+	        }
+	        cout << a << "^" <<  b << "=" << o;
+	    }
+	}
+	
 }

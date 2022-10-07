@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.1...3.24)
-project(Calculator
-VERSION 1.0
-LANGUAGES CXX)
-add_executable(calculator parser.cpp calculator.cpp)
+cmake_minimum_required(VERSION 3.22)
+project(Calculator)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Calculator
+        calculator.cpp)
