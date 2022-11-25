@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int search(int arr[], int n, int x, int result[]){
     int a = 0;
     for (int i = 0; i <= n; i++){
@@ -11,7 +12,7 @@ int search(int arr[], int n, int x, int result[]){
     return a;
 }
 
-int main() {
+int main(){
     int m[11] = {10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19}; 
     const int arrsize = sizeof(m) / sizeof(m[0]);
     int result[arrsize];
@@ -20,7 +21,7 @@ int main() {
     }
     cout << "Count: " << search(m, arrsize, 19, result) << endl << "id: " << endl; // выводим количество найденных элементов и их номера
     for (int i = 0; i < arrsize; ++i){
-        if (result[i] != 0) {
+        if (result[i] != 0){
             cout << result[i] << endl;
         }
     }
