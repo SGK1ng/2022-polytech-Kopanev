@@ -1,7 +1,3 @@
-cmake_minimum_required(VERSION 3.23)
-project(cpuinfo)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(cpuinfo
-        cpuinfo.cpp)
+cmake_minimum_required(VERSION 3.1...3.24)
+    project(CpuInfo VERSION 1.0 LANGUAGES CXX)
+        add_executable(cpuinfo cpuinfo.cpp)
