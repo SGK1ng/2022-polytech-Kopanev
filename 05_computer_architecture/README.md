@@ -11,12 +11,12 @@ $ ps -Ao pid,comm --sort=pid | head -n 2
 ```bash
 $ ps -p $$
     PID TTY          TIME CMD
-   5930 pts/0    00:00:18 zsh
+	8329 pts/1    00:00:00 bash
 ```
 
 3. Сколько всего запущено процессов?
 
 ```bash
 $ ps -A | wc -l
-257
+453
 ```
