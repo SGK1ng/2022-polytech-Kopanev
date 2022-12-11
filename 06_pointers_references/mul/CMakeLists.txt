@@ -1,3 +1,10 @@
-cmake_minimum_required(VERSION 3.1...3.24)
-project(Mul VERSION 1.0 LANGUAGES CXX)
-add_executable(mul mul.cpp)
+cmake_minimum_required(VERSION 3.23)
+project(02_compiler)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(mul
+        mul.cpp
+        mul.h)
