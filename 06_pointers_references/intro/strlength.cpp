@@ -1,12 +1,13 @@
 #include <cassert>
 
 unsigned int length(const char *str) {
-  if (!str)
-    return 0;
-  const char *end = str;
-  for (; *end != '\0'; ++end)
-    ;
-  return end - str;
+    const char* c = str;
+    if (!str){
+      return 0;
+    }
+    while (*c != '\0')
+      {c++;}
+  return c - str;
 }
 
 int main() {
